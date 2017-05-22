@@ -1,0 +1,6 @@
+2
+2 chess_field 100
+3 brown_wood 100
+
+//"brick","brown_wood","sand","grey_wood","chess_field"
+
