@@ -8,7 +8,7 @@
 
 ### II  семестр
 
-* [Объектно-ориентированное программирование (Программирование. Продвинутый поток)](https://github.com/ArtemKupriyanov/2nd-term/MIPT-PROGRAMMING/tree/master/OOP)
+* [Объектно-ориентированное программирование (Программирование. Продвинутый поток)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/2nd-term/OOP)
 
 * [Архитектуры компьтеров и операционных систем](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/2nd-term/ACOS)
 
