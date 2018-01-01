@@ -1,0 +1,6 @@
+Верного оптимального варианта нет
+мой
+select * from students where name like 'и%' or	name like 'И%'
+
+оба не различают регистры
+between ошибется при фамилии 'И'

@@ -1,0 +1,56 @@
+\documentclass[a4paper,12pt]{paper} % добавить leqno в [] для нумерации слева
+
+%%% Работа с русским языком
+\usepackage{cmap}					% поиск в PDF
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+\usepackage{indentfirst}
+
+%%% Дополнительная работа с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+%% Номера формул
+\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+
+%% Шрифты
+\usepackage{euscript}	 % Шрифт Евклид
+\usepackage{mathrsfs} % Красивый матшрифт
+
+%% Свои команды
+\DeclareMathOperator{\sgn}{\mathop{sgn}}
+
+%% Перенос знаков в формулах (по Львовскому)
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}
+	{\hbox{$\mathsurround=0pt #1$}}{}}
+
+\makeatletter
+\def\@seccntformat#1{%
+  \expandafter\ifx\csname c@#1\endcsname\c@section\else
+  \csname the#1\endcsname\quad
+  \fi}
+\makeatother
+
+%%% Заголовок
+
+%%% Начало документа
+\begin{document}
+\section{Куприянов Артем. \\ Алгоритм Петерсона - 2 балла} 
+\textbf{Ответ: } Нет, такая "модификация" \ алгоритма Петерсона для двух потоков не будет гарантировать взаzимное исключение.
+
+
+\textbf{Решение: } \\
+Приведем пример последовательного исполнения в модели чередования инструкций на одном процессоре, в котором вызов mtx.lock() из двух потоков приводит к нарушению взаимного исключения.:
+Пусть есть 2 потока -  $A$ и $B$. Делаем mtx.lock(). \\
+1) \textbf{Поток A станет victum.} victim=A, want[A] = false, want[B] = false. \\
+2) \textbf{Поток B станет victum.} victim=B, want[A] = false, want[B] = false \\
+3) \textbf{Поток B возведет свой флажок.} victim=B, want[A] = false, want[B] = true\\
+4) \textbf{Поток B входит в критическую секцию.} \\ Покажем это: на момент входа условие (want[A].load() \&\& victum.load() == B) -- это false \\
+5) \textbf{Поток A возведет свой флажок.} victim=B, want[A] = true, want[B] = true\\
+6) \textbf{Поток A тоже войдет в критическую секцию.} \\ Покажем это: на момент входа условие (want[B].load() \&\& victum.load() == A) -- это false. Поэтому и поток A войдем в критическую секцию. \\
+А значит, нарушится взаимное исключение. 
+
+\textbf{ЧТД}
+
+\end{document}

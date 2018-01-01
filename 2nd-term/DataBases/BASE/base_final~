@@ -1,0 +1,58 @@
+﻿create table Players ( 
+	PlayerID int not null primary key, 
+	Name varchar(64) not null, 
+	Age int not null, 
+	Weight_lbs int, 
+	Height int, 
+	Pos varchar(1) not null check (Pos in ('G','F','C') ), 
+	Nationality varchar(32) not null 
+); 
+
+create table Coaches ( 
+	CoachID int not null primary key, 
+	Name varchar(64) not null,  
+	spetialization varchar(32) not null, 
+	Experience_year int, 
+	Nationality varchar(32) not null
+); 
+
+create table Trainings (
+	training_date date not null,
+	time_start time(0),
+	time_finish time(0),
+	CoachID int not null,
+	PlayerID int not null,
+	Coach_comment varchar(512),
+	foreign key (CoachID) references Coaches(CoachID),
+	foreign key (PlayerID) references Players(PlayerID)
+);
+
+
+insert into Players values (19, 'Leonardo Barbossa', 36, 194, 6.3, 'G', 'Brazil');
+insert into Players values (40, 'Harrison Barnes', 26, 225, 6.8, 'F', 'USA');
+insert into Players values (12, 'Andrew Bogut', 32, 260, 7.0, 'C', 'Australia');
+insert into Players values (21, 'Ian Clark', 25, 175, 6.3, 'G', 'USA');
+insert into Players values (30, 'Stephen Curry', 28, 190, 6.3, 'G', 'USA');
+insert into Players values (23, 'Daymond Green', 27, 230, 6.7, 'F', 'USA');
+insert into Players values (36, 'Kevon Looney', 20, 220, 6.9, 'F', 'USA');
+insert into Players values (9, 'Andre Iguodala', 22, 215, 6.6, 'C', 'USA');
+
+insert into Coaches values (1, 'Anderson Varejao', 'tactic coach', 11, 'USA');
+insert into Coaches values (2, 'Klay Thompson', 'physical coach', 4, 'USA');
+insert into Coaches values (3, 'Alyona Harrison', 'fitness coach', 1, 'Russia');
+insert into Coaches values (4, 'Marreese Speights', 'physical coach', 15, 'Nigeria');
+insert into Coaches values (5, 'Shaun Livingston', 'fitness coach', 7, 'England');
+
+insert into Trainings values ('2016-05-01', '09:30:00', '12:00:00', 1, 19, NULL);
+insert into Trainings values ('2016-05-01', '09:30:00', '12:00:00', 1, 40, 'good job!');
+insert into Trainings values ('2016-05-01', '09:30:00', '12:00:00', 1, 23, 'good job!');
+insert into Trainings values ('2016-05-03', '15:00:00', '17:00:00', 3, 40, 'he is so tired!');
+insert into Trainings values ('2016-05-03', '15:00:00', '17:00:00', 4, 21, NULL);
+insert into Trainings values ('2016-05-03', '15:00:00', '17:00:00', 4, 23, 'he is in good form!');
+insert into Trainings values ('2016-05-07', '09:00:00', '11:00:00', 5, 9, NULL);
+insert into Trainings values ('2016-05-07', '09:00:00', '11:00:00', 2, 36, 'he is in bad form!');
+insert into Trainings values ('2016-05-07', '09:00:00', '11:00:00', 3, 23, NULL);
+
+select * from Players;
+select * from Coaches;
+select * from Trainings;

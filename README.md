@@ -30,7 +30,7 @@
 
 * [Математическая статистика](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/Math-Stat)
 
-* [Физика. Лабы (идиот штоли?)))000) ) ](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/Physics-Labs)
+* [ПМИшная физика. Лабы (механика)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/Physics-Labs)
 
 
 ### V семестр
@@ -43,7 +43,7 @@
 
 * [Геометрия в компьютерных приложениях. Практика]()
 
-* [Физика. Лабы (идиот штоли?)))000) ) (2)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/Physics-Labs)
+* [ПМИшная физика. Лабы (термодинамика и электричество)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/Physics-Labs)
 
 
 
