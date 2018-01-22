@@ -4,13 +4,13 @@
 
 ### I семестр
 
-Увы, я не смог сохранить никакой информации по первому семестру :(
+* Увы, я не смог сохранить никакой информации по первому семестру :(
 
 ### II  семестр
 
 * [Объектно-ориентированное программирование (Программирование. Продвинутый поток)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/2nd-term/OOP)
 
-* [Архитектуры компьтеров и операционных систем](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/2nd-term/ACOS)
+* [Архитектуры компьтеров и операционных систем. Матгруппа + ПМФ](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/2nd-term/ACOS)
 
 * [Базы данных](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/2nd-term/DataBases)
 
@@ -26,24 +26,28 @@
 
 * [Параллельные алгоритмы (Программирование. Продвинутый поток)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Parallel-Algo)
 
-* [Дискретная оптимизация](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Discrete-Opt)
+* [Дискретная оптимизация (codding track)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Discrete-Opt)
 
 * [Математическая статистика](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Math-Stat)
 
-* [ПМИшная физика. Лабы (механика)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Physics-Labs)
+* [ПМИшная физика. Лабы. Механика](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Physics-Labs)
 
 
 ### V семестр
 
-* [Случайные процессы. Практика](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Random-proc)
+* [Случайные процессы. Практический поток](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Random-proc)
 
 * [Сложности вычислений. Финальный проект](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Complex)
 
 * [Методы оптимизации. Практика](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Optimization)
 
-* [Геометрия в компьютерных приложениях. Практика](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Geom-in-CS)
+* [Геометрия в компьютерных приложениях. Лабораторная](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Geom-in-CS)
 
-* [ПМИшная физика. Лабы (термодинамика и электричество)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Physics-Labs)
+* [ПМИшная физика. Лабы. Термодинамика и электричество](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Physics-Labs)
+
+### VI семестр
+
+* [Машинное обучение]()
 
 
 
