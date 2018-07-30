@@ -32,6 +32,7 @@
 
 * [Математическая статистика](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Math-Stat)
 
+* [Парадигмы бизнес-программирования. Базы данных. Доп.курс от НИКС и МФТИ](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/NIX-db)
 
 ### V семестр
 
