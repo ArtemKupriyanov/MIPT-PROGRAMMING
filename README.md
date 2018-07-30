@@ -26,11 +26,11 @@
 
 * [Параллельные алгоритмы (Программирование. Продвинутый поток)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Parallel-Algo)
 
+* [Программирование на языке Python](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Python)
+
 * [Дискретная оптимизация (codding track)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Discrete-Opt)
 
 * [Математическая статистика](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Math-Stat)
-
-* [ПМИшная физика. Лабы. Механика](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Physics-Labs)
 
 
 ### V семестр
@@ -41,15 +41,19 @@
 
 * [Методы оптимизации. Практика](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Optimization)
 
-* [Геометрия в компьютерных приложениях. Лабораторная](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Geom-in-CS)
+* [Геометрия в компьютерных приложениях. Лабораторные](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Geom-in-CS)
 
-* [ПМИшная физика. Лабы. Термодинамика и электричество](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/5th-term/Physics-Labs)
 
 ### VI семестр
 
-* [Машинное обучение]()
+* [Машинное обучение](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/6th-term/ML)
 
+* [Методы современной и прикладной статистики (кафедра анализа данных)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/6th-term/MCMS)
+
+* [Геометрия в компьютерных приложениях. Доп.главы. Лабораторные](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/6th-term/Geom-in-CS-advanced)
 
 
  ## **Куприянов Артем. 599 группа**
  ### *kupriyanovartem@yandex.ru*
+ ### vk: https://vk.com/k_artemkaa
+ ### tg: @k_artemkaa
