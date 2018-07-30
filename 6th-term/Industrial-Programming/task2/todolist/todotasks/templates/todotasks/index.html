@@ -1,0 +1,15 @@
+<form action="/add" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit" />
+</form>
+
+{% if tasks_list %}
+    <ul>
+    {% for task in tasks_list %}
+        <li><a href="/todotasks/{{ task.id }}/">{{ task.task_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No task are available.</p>
+{% endif %}

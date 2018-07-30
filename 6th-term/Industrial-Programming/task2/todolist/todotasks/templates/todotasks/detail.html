@@ -1,0 +1,8 @@
+{{ task.pub_date }}
+<br>
+{{ task.task_text }}
+<br>
+<form action="/del/{{ task.id }}" method="get">
+    {% csrf_token %}
+    <input type="submit" value="del">
+</form>

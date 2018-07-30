@@ -52,6 +52,8 @@
 
 * [Геометрия в компьютерных приложениях. Доп.главы. Лабораторные](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/6th-term/Geom-in-CS-advanced)
 
+* [Индустриальное программирование](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/6th-term/Industrial-Programming)
+
 
  ## **Куприянов Артем. 599 группа**
  ### *kupriyanovartem@yandex.ru*

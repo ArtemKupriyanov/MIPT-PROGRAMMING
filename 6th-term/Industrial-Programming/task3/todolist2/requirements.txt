@@ -1,0 +1,6 @@
+Django==1.11.6
+psycopg2-binary
+djangorestframework
+markdown
+django-filter
+django-cors-headers
