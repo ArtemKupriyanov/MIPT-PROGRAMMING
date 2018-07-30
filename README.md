@@ -22,6 +22,8 @@
 
 * [Формальные языки и трансляции](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/3rd-term/Formal-Lang)
 
+* [Математематический практикум (науч.рук. Мусатов Д.В.)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/3rd-term/Math-Pract)
+
 ### IV семестр
 
 * [Параллельные алгоритмы (Программирование. Продвинутый поток)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/4th-term/Parallel-Algo)
