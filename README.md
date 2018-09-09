@@ -49,13 +49,21 @@
 
 ### VI семестр
 
-* [Машинное обучение](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/6th-term/ML)
+* [Машинное обучение. Часть 1](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/6th-term/ML-1)
 
 * [Методы современной и прикладной статистики (кафедра анализа данных)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/6th-term/MCMS)
 
 * [Геометрия в компьютерных приложениях. Доп.главы. Лабораторные](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/6th-term/Geom-in-CS-advanced)
 
 * [Индустриальное программирование](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/6th-term/Industrial-Programming)
+
+### VII семестр
+
+* [Машинное обучение. Часть 2](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/7th-term/ML-2)
+
+* [Компьютерное зрение (кафедра анализа данных)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/7th-term/computer-vision)
+
+* [Практическая аналитика (кафедра анализа данных)](https://github.com/ArtemKupriyanov/MIPT-PROGRAMMING/tree/master/7th-term/analytics)
 
 
  ## **Куприянов Артем. 599 группа**
